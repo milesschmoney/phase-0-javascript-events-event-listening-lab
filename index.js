@@ -7,3 +7,6 @@ function addingEventListener() {
 
   input.addEventListener('click', clickAlert);
 }
+
+// IMPORTANT: Call the function so the event listener is activated
+addingEventListener();
